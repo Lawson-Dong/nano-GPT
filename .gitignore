@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Generated data and checkpoints (recreate with prepare.py / train.py)
+data/*.npy
+data/*.bin
+*.pt
+*.pth
